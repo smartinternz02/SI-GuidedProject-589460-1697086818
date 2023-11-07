@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SMARTBRIDGE Autism Screening Classification</title>
+  <style>
+    header {
+      text-align: center;
+      background-color: orangered;
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .smartbridge {
+      font-size: 0.8em;
+      color: white;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .predict-button {
+      background-color: #006699;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .about-project {
+      width: 50%;
+      float: left;
+      padding: 10px;
+    }
+
+    .image {
+      width: 25%;
+      float: right;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Autism Screening Classification</h1>
+    <span class="smartbridge">SMARTBRIDGE</span>
+  </header>
+
+  <div class="about-project">
+    <h2>About the Project</h2>
+    <p>Autistic Spectrum Disorder (ASD) is a neurodevelopment condition associated with significant healthcare costs, and early diagnosis can significantly reduce these costs. Unfortunately, waiting times for an ASD diagnosis are lengthy and procedures are not cost-effective. The economic impact of autism and the increase in the number of ASD cases worldwide reveals an urgent need for the development of easily implemented and effective screening methods.
+    Therefore, a time-efficient and accessible ASD screening is imminent to help health professions and inform individuals whether they should pursue formal clinical diagnoses. The rapid growth in the number of ASD cases worldwide necessitates the collection of large datasets related to behavior traits. However, such datasets are rare, making it difficult to perform thorough analyses to improve the efficiency, sensitivity, specificity, and predictive accuracy of the ASD screening process. Presently, very limited autism datasets associated with clinical or screening are available and most of them are genetic in nature. Hence, we propose a new dataset called SMARTBRIDGE for autism screening of adults that contains 20 features to be used for further analysis, especially in determining influential sub-traits and improving the classification of ASD cases. In this dataset, we record the behavior features (AD-15-Adult) and individual characteristics that have proved to be effective in detecting the ASD cases from controls in behavior science.</p>
+    <a href="/data" class="predict-button">Click to Predict</a>
+  </div>
+
+  <div class="image">
+    <img src="./static/graph.jpg" >
+  </div>
+
+</body>
+</html>
